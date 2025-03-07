@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becca's Collective | Improve Your Lifestyle</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const quotes = [
+                "The consciousness of loving and being loved brings warmth and richness to life. – Deepak Chopra",
+                "Your consciousness is the source of your health, happiness, and wealth. – Eckhart Tolle",
+                "Conscious love is the highest frequency for healing and transformation. – Deepak Chopra",
+                "Your consciousness shapes your reality—nurture it wisely to live abundantly. – Wayne Dyer",
+                "The consciousness of abundance is a gateway to prosperity, joy, and peace. – Louise Hay"
+            ];
+            const quote = quotes[new Date().getDate() % quotes.length];
+            document.getElementById('daily-quote').textContent = quote;
+        });
+    </script>
+</head>
+<body class="bg-gradient-to-br from-purple-100 to-indigo-200">
+
+    <header class="text-center py-12">
+        <h1 class="text-5xl font-bold text-gray-800 mb-4">Becca's Collective</h1>
+        <p class="text-xl text-gray-700">Empowering Your Body, Nourishing Your Soul, Boosting Your Wallet</p>
+    </header>
+
+    <section class="max-w-5xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+
+            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all">
+                <img src="https://source.unsplash.com/featured/?yoga,zen" alt="Health" class="rounded-t-xl mb-4">
+                <h2 class="text-2xl font-semibold text-purple-600 mb-3">Health</h2>
+                <p class="text-gray-600">Daily insights to nurture physical wellness through consciousness.</p>
+                <div class="mt-4 bg-gray-100 py-2 px-4 rounded-xl text-gray-500 italic">Affiliate Link Space</div>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all">
+                <img src="https://source.unsplash.com/featured/?money,wealth" alt="Wealth" class="rounded-t-xl mb-4">
+                <h2 class="text-2xl font-semibold text-purple-600 mb-3">Wealth</h2>
+                <p class="text-gray-600">Harness your consciousness to attract financial abundance through intentional thought and strategic actions.</p>
+                <div class="mt-4 bg-gray-100 py-2 px-4 rounded-xl text-gray-500 italic">Ad space for affiliate links</div>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all">
+                <img src="https://source.unsplash.com/featured/?meditation,mindfulness" alt="Spirituality" class="rounded-t-xl mb-4">
+                <h2 class="text-2xl font-semibold text-purple-600 mb-3">Spirituality</h2>
+                <p class="text-gray-600">Daily wisdom to deepen your spiritual awareness and elevate your inner peace and mindfulness.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all">
+                <img src="https://source.unsplash.com/featured/?love,heart" alt="Love" class="rounded-t-xl mb-4">
+                <h2 class="text-2xl font-semibold text-purple-600 mb-3">Love</h2>
+                <p class="text-gray-600">Guidance on harnessing consciousness to cultivate loving relationships, compassion, and emotional intelligence daily.</p>
+                <div class="mt-4 bg-gray-100 py-2 px-4 rounded-xl text-gray-500 italic">Ad space for affiliate links</div>
+            </div>
+
+        </div>
+
+        <div class="mt-12 text-center">
+            <h3 class="text-2xl font-semibold text-gray-700 mb-4">Today's Inspiration:</h3>
+            <p id="daily-quote" class="italic text-lg text-purple-700"></p>
+        </div>
+
+        <div class="mt-12">
+            <h3 class="text-2xl font-semibold text-gray-700 mb-4">Leave a Comment:</h3>
+            <form class="bg-white p-6 rounded-xl shadow-lg">
+                <textarea class="w-full border border-gray-300 p-4 rounded-xl" rows="4" placeholder="Write your comment here..."></textarea>
+                <button class="mt-4 bg-purple-600 text-white font-semibold px-6 py-2 rounded-full hover:bg-purple-700 transition-all">Submit Comment</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="mt-20 py-8 text-center text-gray-500">
+        &copy; 2025 Becca's Collective. All rights reserved.
+    </footer>
+
+</body>
+</html>
