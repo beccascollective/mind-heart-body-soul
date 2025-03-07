@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wealth | Attract Wealth by Raising Your Consciousness</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-green-50">
+
+    <header class="bg-green-500 py-8">
+        <h1 class="text-center text-4xl text-white font-bold">Attract Wealth by Raising Your Consciousness</h1>
+    </header>
+
+    <main class="max-w-3xl mx-auto p-8 bg-white shadow-lg rounded-xl my-8">
+        <p class="mb-6">Wealth consciousness is rooted in the understanding that abundance begins within. It's not merely a result of external circumstances or hard work alone; it's primarily influenced by your beliefs about money and prosperity. By consciously shifting these beliefs from scarcity to abundance, you naturally align yourself with opportunities to generate and attract wealth.</p>
+
+        <p class="mb-6">Your thoughts about wealth create energetic pathways that either attract or repel abundance. Consciously monitor your internal conversations about money—notice thoughts of worry or limitation and actively replace them with positive affirmations of prosperity. Visualize yourself living abundantly, confidently managing and multiplying your resources.</p>
+
+        <p class="mb-6">Moreover, cultivating a mindset of gratitude for what you currently have opens doors to greater prosperity. Conscious gratitude raises your vibrational frequency, aligning your energy with abundance. Gratitude attracts opportunities that lead to financial growth, creating a powerful momentum towards achieving wealth.</p>
+
+        <p class="mb-6">Finally, conscious intention backed by deliberate action is vital. Clearly define your financial goals and consciously take strategic steps daily to reach them. Even small, mindful actions accumulate over time, creating substantial shifts in your financial reality.</p>
+
+        <div class="text-center mt-8">
+            <a href="index.html" class="inline-block bg-green-500 text-white font-semibold px-6 py-2 rounded-full hover:bg-green-600 transition-all">Back to Home</a>
+        </div>
+    </main>
+
+    <footer class="py-6 text-center text-gray-500">
+        &copy; 2025 Becca's Collective. All rights reserved.
+    </footer>
+
+</body>
+</html>
